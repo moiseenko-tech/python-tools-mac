@@ -3,6 +3,9 @@
 set -e
 set -o pipefail
 
+brew install pipx
+pipx ensurepath --force
+
 # Install Ansible
 pipx install --include-deps "$(cat requirements/ansible/ansible.txt)"
 pipx runpip ansible install -r requirements/ansible/ansible-deps.txt
