@@ -1,0 +1,16 @@
+# Ansible
+-r requirements/ansible/ansible.txt
+-r requirements/ansible/ansible-deps.txt
+
+# Dev Tools
+-r requirements/devtools/poetry.txt
+
+# Linters
+-r requirements/linters/ansible-lint.txt
+-r requirements/linters/black.txt
+-r requirements/linters/ruff.txt
+-r requirements/linters/yamllint.txt
+
+# OpenStack
+-r requirements/openstack/python-openstackclient.txt
+-r requirements/openstack/python-openstackclient-deps.txt
