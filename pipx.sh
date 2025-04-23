@@ -22,3 +22,6 @@ pipx install "$(cat requirements/linters/yamllint.txt)"
 # Install OpenStack CLI
 pipx install "$(cat requirements/openstack/python-openstackclient.txt)"
 pipx runpip python-openstackclient install -r requirements/openstack/python-openstackclient-deps.txt
+
+# Install Utils
+pipx install "$(cat requirements/utils/yq.txt)"
