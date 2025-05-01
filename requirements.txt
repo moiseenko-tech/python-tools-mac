@@ -4,6 +4,7 @@
 
 # Dev Tools
 -r requirements/devtools/poetry.txt
+-r requirements/devtools/pytest.txt
 
 # Linters
 -r requirements/linters/ansible-lint.txt
