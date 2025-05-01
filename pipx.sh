@@ -13,6 +13,7 @@ pipx runpip ansible install -r requirements/ansible/ansible-deps.txt
 # Install Dev Tools
 pipx install "$(cat requirements/devtools/poetry.txt)"
 pipx install "$(cat requirements/devtools/pytest.txt)"
+pipx runpip pytest install -r requirements/devtools/pytest-deps.txt
 
 # Install linters
 pipx install "$(cat requirements/linters/ansible-lint.txt)"
