@@ -18,4 +18,5 @@
 -r requirements/openstack/python-openstackclient-deps.txt
 
 # Utils
+-r requirements/utils/python-dotenv.txt
 -r requirements/utils/yq.txt
